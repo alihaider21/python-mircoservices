@@ -7,3 +7,8 @@ def wiki(name="war godness", length=1):
     my_wiki = wikipedia.summary(name, length)
 
     return my_wiki
+
+def search_wiki(name):
+    """" Search Wikipedia for names"""
+    result = wikipedia.search(name)
+    return result
