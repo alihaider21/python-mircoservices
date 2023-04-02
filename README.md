@@ -10,3 +10,5 @@
 4. Setup Continuous Integratoin, i.e. check code for issues like lint errors
 
 ![lint-faliure](https://user-images.githubusercontent.com/57058911/229337811-9bc0b402-cd3b-4291-ac6e-31d777f70ee7.JPG)
+
+5. Building cli using Python Fire library `./cli-fire.py --help` to test logic
