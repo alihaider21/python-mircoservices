@@ -24,6 +24,7 @@ jobs:
         make test
     - name: Format code
       run: |
+        docker login
         make format
     - name: Build Container
       run: |
